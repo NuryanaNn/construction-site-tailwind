@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.hero{
+    background-image: url(assets/img/banner.webp);
+    height: 600px;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, .8);
+    content: '';
+}
+
+.left{
+    width: 900px;
+    height: 150px;
+    left: -300px;
+    bottom: -70px;
+    transform: rotate(10deg);
+}
+
+.right{
+    width: 900px;
+    height: 150px;
+    right: -300px;
+    bottom: -70px;
+    transform: rotate(-10deg);
+}
+
+.service .bigImage{
+    width: 40%;
+}
+
+.service .serviceText{
+    width: 57%;
+}
+
+
+.projects .bigCard{
+    width: 34%;
+}
+
+.projects .cardContainer{
+    width: 65%;
+}
+
+.clients{
+    background-image: url(assets/img/clients.webp);
+}
+
+.clients .overlay{
+    background-color: rgba(255, 255, 255, .96);
+}
+
+.clientSay{
+    width: 45%;
+}
+
+.clientsForms{
+    width: 45%;
+}
+
+footer{
+    background-image: url(assets/img/footer.webp);
+}
+
+footer .overlay{
+    background-color: rgba(35, 49, 52 .5);
+}
